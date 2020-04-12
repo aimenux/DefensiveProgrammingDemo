@@ -43,9 +43,6 @@
     <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sharprompt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sharprompt.1.0.4\lib\netstandard2.0\Sharprompt.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -57,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contracts\AbstractServiceContracts.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductType.cs" />
     <Compile Include="Program.cs" />

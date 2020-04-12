@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Sharprompt;
 using static CodeContractsFullApp.Examples;
 
 namespace CodeContractsFullApp
@@ -9,19 +8,55 @@ namespace CodeContractsFullApp
     {
         public static void Main()
         {
-            var options = new Dictionary<string, Action>
+            var choice = GetChoice();
+
+            var options = new Dictionary<int, Action>
             {
-                [nameof(EnsuresViolationExample1)] = EnsuresViolationExample1,
-                [nameof(EnsuresViolationExample2)] = EnsuresViolationExample2,
-                [nameof(RequiresViolationExample1)] = RequiresViolationExample1,
-                [nameof(RequiresViolationExample2)] = RequiresViolationExample2,
-                [nameof(InvariantViolationExample1)] = InvariantViolationExample1,
-                [nameof(InvariantViolationExample2)] = InvariantViolationExample2,
+                [1] = EnsuresViolationExample1,
+                [2] = EnsuresViolationExample2,
+                [3] = RequiresViolationExample1,
+                [4] = RequiresViolationExample2,
+                [5] = InvariantViolationExample1,
+                [6] = InvariantViolationExample2,
+                [7] = () => {},
             };
-            var choice = Prompt.Select("Select a violation example", options.Keys);
+
             options[choice].Invoke();
-            Console.WriteLine("Press any key to exit !");
-            Console.ReadKey();
+        }
+
+        private static int GetChoice()
+        {
+            int choice;
+
+            do
+            {
+                ConsoleColor.Green.WriteLine($"1. Run {nameof(EnsuresViolationExample1)}");
+                ConsoleColor.Green.WriteLine($"2. Run {nameof(EnsuresViolationExample2)}");
+                ConsoleColor.Green.WriteLine($"3. Run {nameof(RequiresViolationExample1)}");
+                ConsoleColor.Green.WriteLine($"4. Run {nameof(RequiresViolationExample2)}");
+                ConsoleColor.Green.WriteLine($"5. Run {nameof(InvariantViolationExample1)}");
+                ConsoleColor.Green.WriteLine($"6. Run {nameof(InvariantViolationExample2)}");
+                ConsoleColor.Green.WriteLine($"7. Exit {nameof(Program)}");
+                Console.WriteLine();
+                ConsoleColor.Yellow.WriteLine("Please enter a choice ?");
+                choice = ReadChoice();
+            }
+            while (choice < 1 || choice > 7);
+
+            return choice;
+        }
+
+        private static int ReadChoice()
+        {
+            ConsoleColor.Magenta.SetColor();
+            var input = Console.ReadLine();
+            Console.WriteLine();
+            if (int.TryParse(input, out var choice))
+            {
+                return choice;
+            }
+
+            return -1;
         }
     }
 }
