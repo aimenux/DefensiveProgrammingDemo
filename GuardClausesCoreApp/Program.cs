@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static CodeContractsFullApp.Examples;
+using static GuardClausesCoreApp.Examples;
 
-namespace CodeContractsFullApp
+namespace GuardClausesCoreApp
 {
     public static class Program
     {
@@ -14,12 +14,12 @@ namespace CodeContractsFullApp
 
                 var options = new Dictionary<int, Action>
                 {
-                    [1] = EnsuresViolationExample1,
-                    [2] = EnsuresViolationExample2,
-                    [3] = RequiresViolationExample1,
-                    [4] = RequiresViolationExample2,
-                    [5] = InvariantViolationExample1,
-                    [6] = InvariantViolationExample2,
+                    [1] = ViolationExample1,
+                    [2] = ViolationExample2,
+                    [3] = ViolationExample3,
+                    [4] = ViolationExample4,
+                    [5] = ViolationExample5,
+                    [6] = ViolationExample6,
                     [7] = () => {},
                 };
 
@@ -45,12 +45,12 @@ namespace CodeContractsFullApp
 
             do
             {
-                ConsoleColor.Green.WriteLine($"1. Run {nameof(EnsuresViolationExample1)}");
-                ConsoleColor.Green.WriteLine($"2. Run {nameof(EnsuresViolationExample2)}");
-                ConsoleColor.Green.WriteLine($"3. Run {nameof(RequiresViolationExample1)}");
-                ConsoleColor.Green.WriteLine($"4. Run {nameof(RequiresViolationExample2)}");
-                ConsoleColor.Green.WriteLine($"5. Run {nameof(InvariantViolationExample1)}");
-                ConsoleColor.Green.WriteLine($"6. Run {nameof(InvariantViolationExample2)}");
+                ConsoleColor.Green.WriteLine($"1. Run {nameof(ViolationExample1)}");
+                ConsoleColor.Green.WriteLine($"2. Run {nameof(ViolationExample2)}");
+                ConsoleColor.Green.WriteLine($"3. Run {nameof(ViolationExample3)}");
+                ConsoleColor.Green.WriteLine($"4. Run {nameof(ViolationExample4)}");
+                ConsoleColor.Green.WriteLine($"5. Run {nameof(ViolationExample5)}");
+                ConsoleColor.Green.WriteLine($"6. Run {nameof(ViolationExample6)}");
                 ConsoleColor.Green.WriteLine($"7. Exit {nameof(Program)}");
                 Console.WriteLine();
                 ConsoleColor.Yellow.WriteLine("Please enter a choice ?");
