@@ -36,7 +36,7 @@ namespace LightGuardClausesCoreApp
             var repository = new Repository();
             var service = new Service(repository);
             const string name = nameof(ProductType.Sugar);
-            var price = service.GetPrice(name, -1);
+            var price = service.GetPrice(name, 0);
             Console.WriteLine($"Price of '{name}': {price}");
         }
 

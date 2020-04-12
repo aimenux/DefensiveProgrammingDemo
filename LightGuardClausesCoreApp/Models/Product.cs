@@ -12,5 +12,10 @@ namespace LightGuardClausesCoreApp.Models
             Name = name.MustNotBeNullOrWhiteSpace(nameof(name));
             Price = price.MustBeGreaterThan(0, nameof(price));
         }
+
+        public override string ToString()
+        {
+            return $"[{Name},{Price}$]";
+        }
     }
 }

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using GuardClausesCoreApp.Models;
-using GuardClausesCoreApp.Repositories;
-using GuardClausesCoreApp.Services;
+using PitcherCoreApp.Models;
+using PitcherCoreApp.Repositories;
+using PitcherCoreApp.Services;
 
-namespace GuardClausesCoreApp
+namespace PitcherCoreApp
 {
     public static class Examples
     {

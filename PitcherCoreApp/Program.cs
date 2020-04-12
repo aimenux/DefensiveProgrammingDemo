@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static GuardClausesCoreApp.Examples;
+using static PitcherCoreApp.Examples;
 
-namespace GuardClausesCoreApp
+namespace PitcherCoreApp
 {
     public static class Program
     {

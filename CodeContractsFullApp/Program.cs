@@ -51,7 +51,7 @@ namespace CodeContractsFullApp
                 ConsoleColor.Green.WriteLine($"4. Run {nameof(RequiresViolationExample2)}");
                 ConsoleColor.Green.WriteLine($"5. Run {nameof(InvariantViolationExample1)}");
                 ConsoleColor.Green.WriteLine($"6. Run {nameof(InvariantViolationExample2)}");
-                ConsoleColor.Green.WriteLine($"7. Exit {nameof(Program)}");
+                ConsoleColor.Green.WriteLine($"7. Exit {typeof(Program).Namespace}");
                 Console.WriteLine();
                 ConsoleColor.Yellow.WriteLine("Please enter a choice ?");
                 choice = ReadChoice();

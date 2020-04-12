@@ -51,7 +51,7 @@ namespace LightGuardClausesCoreApp
                 ConsoleColor.Green.WriteLine($"4. Run {nameof(ViolationExample4)}");
                 ConsoleColor.Green.WriteLine($"5. Run {nameof(ViolationExample5)}");
                 ConsoleColor.Green.WriteLine($"6. Run {nameof(ViolationExample6)}");
-                ConsoleColor.Green.WriteLine($"7. Exit {nameof(Program)}");
+                ConsoleColor.Green.WriteLine($"7. Exit {typeof(Program).Namespace}");
                 Console.WriteLine();
                 ConsoleColor.Yellow.WriteLine("Please enter a choice ?");
                 choice = ReadChoice();

@@ -1,6 +1,6 @@
-﻿using Ardalis.GuardClauses;
+﻿using Pitcher;
 
-namespace GuardClausesCoreApp.Models
+namespace PitcherCoreApp.Models
 {
     public class Product
     {
@@ -9,8 +9,8 @@ namespace GuardClausesCoreApp.Models
 
         public Product(string name, decimal price)
         {
-            Guard.Against.NullOrWhiteSpace(name, nameof(name));
-            Guard.Against.NegativeOrZero(price, nameof(price));
+            Throw.ArgumentNull.WhenNullOrWhiteSpace(name, nameof(name));
+            Throw.ArgumentOutOfRange.When(price <= 0, nameof(price));
             Name = name;
             Price = price;
         }

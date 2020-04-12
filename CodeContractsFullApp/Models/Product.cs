@@ -13,6 +13,11 @@ namespace CodeContractsFullApp.Models
             Price = price;
         }
 
+        public override string ToString()
+        {
+            return $"[{Name},{Price}$]";
+        }
+
         [ContractInvariantMethod]
         private void ProductInvariant()
         {
