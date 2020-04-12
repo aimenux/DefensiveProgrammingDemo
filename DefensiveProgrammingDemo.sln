@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardClausesCoreApp", "GuardClausesCoreApp\GuardClausesCoreApp.csproj", "{7F52023B-89AA-4F4F-8111-29B54E38136F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightGuardClausesCoreApp", "LightGuardClausesCoreApp\LightGuardClausesCoreApp.csproj", "{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{7F52023B-89AA-4F4F-8111-29B54E38136F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F52023B-89AA-4F4F-8111-29B54E38136F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F52023B-89AA-4F4F-8111-29B54E38136F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
