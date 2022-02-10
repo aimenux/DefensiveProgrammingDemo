@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeContractsFullApp", "CodeContractsFullApp\CodeContractsFullApp.csproj", "{D9800276-170D-4F38-ADC9-74ACA53910F3}"
 EndProject
@@ -14,7 +14,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuardClausesCoreApp", "Guar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightGuardClausesCoreApp", "LightGuardClausesCoreApp\LightGuardClausesCoreApp.csproj", "{A57FD2A3-6586-4CB0-9DC7-6EFEE154114D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PitcherCoreApp", "PitcherCoreApp\PitcherCoreApp.csproj", "{01ECC25F-8544-4D38-B845-C916C56CDECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PitcherCoreApp", "PitcherCoreApp\PitcherCoreApp.csproj", "{01ECC25F-8544-4D38-B845-C916C56CDECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsureThatCoreApp", "EnsureThatCoreApp\EnsureThatCoreApp.csproj", "{98E81CCE-C018-4F36-AC34-78727839704E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DawnGuardCoreApp", "DawnGuardCoreApp\DawnGuardCoreApp.csproj", "{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,14 @@ Global
 		{01ECC25F-8544-4D38-B845-C916C56CDECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01ECC25F-8544-4D38-B845-C916C56CDECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01ECC25F-8544-4D38-B845-C916C56CDECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E81CCE-C018-4F36-AC34-78727839704E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E81CCE-C018-4F36-AC34-78727839704E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E81CCE-C018-4F36-AC34-78727839704E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E81CCE-C018-4F36-AC34-78727839704E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
