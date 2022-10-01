@@ -16,9 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightGuardClausesCoreApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PitcherCoreApp", "PitcherCoreApp\PitcherCoreApp.csproj", "{01ECC25F-8544-4D38-B845-C916C56CDECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsureThatCoreApp", "EnsureThatCoreApp\EnsureThatCoreApp.csproj", "{98E81CCE-C018-4F36-AC34-78727839704E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnsureThatCoreApp", "EnsureThatCoreApp\EnsureThatCoreApp.csproj", "{98E81CCE-C018-4F36-AC34-78727839704E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DawnGuardCoreApp", "DawnGuardCoreApp\DawnGuardCoreApp.csproj", "{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DawnGuardCoreApp", "DawnGuardCoreApp\DawnGuardCoreApp.csproj", "{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowCoreApp", "ThrowCoreApp\ThrowCoreApp.csproj", "{42A13D6E-68E3-4FB3-829A-53D4301FEEC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0FA3089-C7BA-4DE8-AB02-1B115B21ECC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A13D6E-68E3-4FB3-829A-53D4301FEEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A13D6E-68E3-4FB3-829A-53D4301FEEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A13D6E-68E3-4FB3-829A-53D4301FEEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A13D6E-68E3-4FB3-829A-53D4301FEEC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

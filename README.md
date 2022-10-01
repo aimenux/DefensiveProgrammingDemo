@@ -16,5 +16,7 @@ an extensible library for throwing a meaningful exception when some condition is
 a nice library for throwing a meaningful exception when some condition is not met by code (support for .net core)
 - [LightGuardClauses](https://github.com/feO2x/Light.GuardClauses) :
 a rich and user friendly library for throwing a meaningful exception when some condition is not met by code (support for .net core)
+- [Throw](https://github.com/amantinband/throw) :
+a fluent, extensible, and customizable library for throwing a meaningful exception when some condition is not met by code (support for .net core)
 
-**`Tools`** : vs19, net core 3.1, net full 4.7
+**`Tools`** : vs22, net 6, net full 4.8
